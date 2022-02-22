@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+  import logo from './logo.svg';
+  import './App.css';
+  import React from 'react';
+  import ListaMostrar from './listaC';
+  import FormularioC from './FormularioC';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+  class App extends React.Component {
+    constructor(props) {
+      super(props);
+
+    }
+    render() {
+      return (
+        <div id="Chat1">
+          <form >
+          <label>
+            Chat User1: <input type="text" />
+          </label>
+          <input type="button" value="Enviar" />
+        </form>
+        </div>
+        
+      );
+    }
+  }
+
+  export default Chat;

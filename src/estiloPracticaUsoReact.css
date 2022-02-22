@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(238, 224, 224);
+}
+.Prueba{
+    width: 100%;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}

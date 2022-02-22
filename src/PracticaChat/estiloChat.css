@@ -1,0 +1,375 @@
+html{
+    background-color: #354152;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+}
+#componentes{
+    display: flex;
+}
+.totalidadMovil{
+    margin-top: 2%;
+    width: 100%;
+    justify-content: center;
+    background-color:  #354152;  
+    display: flex;
+    padding: 0;
+    margin: 0;
+    min-height:98vh ;
+}
+.movil{
+    background-color: rgb(34, 34, 34);
+    width: 35%;
+    border-radius: 20px;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+.PantallaSuperior{
+    width: 100%;
+    background-image: linear-gradient(160deg, #5cbd8c 0%, #00c093 100%);
+    border-radius: 8px;
+    height: 7vh;
+}
+.nombreGrupo{
+    width: 100%;
+    margin-left: 7%;
+    color: white;
+  }
+.ZonaMensajes{
+    height: auto;
+    min-height: 82vh;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-top: solid black 1px;
+    overflow-y:scroll;
+}
+.zonaTeclado{
+    width: 100%;
+    text-align: center;
+     
+}
+.entradaTexto{
+    width: 75%;
+    border-radius: 8px;
+}
+.botonEnviarMensaje{
+    border-radius: 25px;
+    border: 1px solid #242c37;
+    margin-top: 2px;
+    width: 10%;
+    color: #fff;
+    font-size: 10px;
+    
+    background-image: linear-gradient(160deg, #8ceabb 0%, #378f7b 100%);
+}
+#login{
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color:  #354152;     
+}
+h5{
+    color: rgb(255, 42, 42);
+}
+.InicioSesion{
+    box-shadow: 0 0 250px #000;
+    border-radius: 20px;
+    padding: 4rem 2rem;
+    width: 25%;
+    color: white;
+    background-color:  #354152;
+    justify-content: center;
+}
+.inputIniciarSesion{
+    margin-top: 7%;
+    height: 28px;
+    width: 90%;
+    border-radius: 20px;
+}
+.botonIniciarSesion{
+    border-radius: 20px;
+    border: 1px solid #242c37;
+    margin-top: 8%;
+    padding: 8px;
+    width: 92%;
+    color: #fff;
+    font-size: 17px;
+    background-image: linear-gradient(160deg, #a2face 0%, #378f7b 100%);
+}
+.Registrarse{
+    margin-top: 50px;
+}
+h2 {
+    font-size: 2.75rem;
+    font-weight: 100;
+    margin: 0 0 1rem;
+    text-transform: uppercase;
+    font-family:sans-serif;
+}
+.UsersNo {
+    text-align: left;
+    width: 50%;
+    padding: 1.5%;
+    border: solid;
+    border-radius: 20px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    position: relative;
+    margin: 1.5vh;
+    word-wrap: break-word;
+    right: 2%;
+    
+}
+
+.nombreUsersSecundarios{
+    color: rgb(203, 255, 214);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+   
+}
+.UserRegistrado {
+    border: solid;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(72, 96, 124);
+    width: 46%;
+    margin: 1.9vh;
+    position: relative;
+    word-wrap: break-word;
+    right: -47%;
+    color: white;
+    justify-content: right;
+}
+.nombreUserPrincipal{
+    color: rgb(230, 230, 230);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+ 
+@media only screen and (max-width: 1050px) {
+
+    .UserRegistrado {
+        border: solid;
+        padding: 2.4%;
+        border-radius: 20px;
+        background-color: rgb(72, 96, 124);
+        width: 40%;
+        margin: 0.6vh;
+        position: relative;
+        word-wrap: break-word;
+        right: -52%;
+        color: white;
+        justify-content: right;
+    }
+    .UsersNo {
+        text-align: left;
+        width: 50%;
+        padding: 2.5%;
+        border: solid;
+        border-radius: 20px;
+        background-color: rgb(48, 48, 48);
+        color: white;
+        position: relative;
+        margin: 1.5vh;
+        word-wrap: break-word;
+        right: 2%;
+    }
+}
+@media only screen and (max-width: 875px) {
+
+    .totalidadMovil{
+        margin-top: 2%;
+        width: 100%;
+        justify-content: center;
+        background-color:  #354152;  
+        padding: 0;
+        margin: 0;
+        min-height:98vh ;
+    }
+    .movil{
+        width: 100%;
+    }
+    .nombreGrupo{
+        width: 100%;
+        margin-left: 2vh;
+        color: white;
+        position: relative;
+        FONT-SIZE: 18px
+    }
+    .ZonaMensajes{
+        height: auto;
+        min-height: 82vh;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        border-top: solid black 1px;
+        overflow-y:scroll;
+    }
+    .UserRegistrado {
+        border: solid;
+        padding: 1.4%;
+        border-radius: 20px;
+        background-color: rgb(72, 96, 124);
+        width: 36%;
+        margin: 1.6vh;
+        position: relative;
+        font-size: 17px;
+        word-wrap: break-word;
+        right: -58%;
+        color: white;
+        justify-content: right;
+    }
+    .UsersNo {
+        text-align: left;
+        width: 50%;
+        padding: 1.6%;
+        border: solid;
+        border-radius: 20px;
+        background-color: rgb(48, 48, 48);
+        color: white;
+        position: relative;
+        margin: 2.5vh;
+        word-wrap: break-word;
+        right: 2%;
+    }
+    .zonaTeclado{
+        width: 100%;
+        text-align: center;
+    }
+    .entradaTexto{
+        width: 75%;
+        border-radius: 8px;
+    }
+    
+
+}
+@media only screen and (max-width: 600px) {
+
+    .totalidadMovil {
+        margin-top: 2%;
+        width: 100%;
+        justify-content: center;
+        background-color: #354152;
+        padding: 0;
+        margin: 0;
+        min-height: 100vh;
+    }
+    .movil{
+        width: 100%;
+    }
+    .nombreGrupo{
+        width: 100%;
+        margin-left: 2vh;
+        color: white;
+        position: relative;
+    }
+    .ZonaMensajes{
+        height: auto;
+        min-height: 82vh;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        border-top: solid black 1px;
+        overflow-y:scroll;
+    }
+    .zonaTeclado{
+        width: 100%;
+        text-align: center;
+    }
+    .entradaTexto{
+        width: 75%;
+        border-radius: 8px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 460px) {
+
+    .UserRegistrado {
+        border: solid;
+        padding: 1.4%;
+        border-radius: 20px;
+        background-color: rgb(72, 96, 124);
+        width: 42%;
+        margin: 0.6vh;
+        position: relative;
+        word-wrap: break-word;
+        right: -52%;
+        color: white;
+        justify-content: right;
+    }
+    .UsersNo {
+        text-align: left;
+        width: 50%;
+        padding: 1.5%;
+        border: solid;
+        border-radius: 20px;
+        background-color: rgb(48, 48, 48);
+        color: white;
+        position: relative;
+        margin: 1.5vh;
+        word-wrap: break-word;
+        right: 2%;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+    .UserRegistrado {
+        border: solid;
+        padding: 2.4%;
+        border-radius: 20px;
+        background-color: rgb(72, 96, 124);
+        width: 44%;
+        margin: 0.8vh;
+        position: relative;
+        word-wrap: break-word;
+        right: -47%;
+        color: white;
+        justify-content: right;
+    }
+    .UsersNo {
+        text-align: left;
+        width: 50%;
+        padding: 1.5%;
+        border: solid;
+        border-radius: 20px;
+        background-color: rgb(48, 48, 48);
+        color: white;
+        position: relative;
+        margin: 1.5vh;
+        word-wrap: break-word;
+        right: 2%;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+    .UserRegistrado {
+        border: solid;
+        padding: 2.4%;
+        border-radius: 20px;
+        background-color: rgb(72, 96, 124);
+        width: 44%;
+        margin: 0.8vh;
+        position: relative;
+        word-wrap: break-word;
+        right: -47%;
+        color: white;
+        justify-content: right;
+    }
+    .UsersNo {
+        text-align: left;
+        width: 50%;
+        padding: 2.5%;
+        border: solid;
+        border-radius: 20px;
+        background-color: rgb(48, 48, 48);
+        color: white;
+        position: relative;
+        margin: 0.8vh;
+        word-wrap: break-word;
+        right: 2%;
+    }
+}
